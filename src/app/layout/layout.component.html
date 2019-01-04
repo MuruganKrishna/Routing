@@ -1,0 +1,160 @@
+<body>
+  <div
+    id="router"
+    class="btn-group container"
+    role="group"
+    aria-label="Basic example"
+    class="container"
+  >
+    <div class="row">
+      <div id="router1" class="col-md-3">
+        <h1 class="page-header">Router 1</h1>
+        <ul>
+          <li>
+            {{ array4[1] }}
+            <button (click)="disconnect(1)" class="btn btn-secondary">
+              Disconnect
+            </button>
+          </li>
+          <br />
+          <li>
+            {{ array4[2] }}
+            <button (click)="disconnect(2)" class="btn btn-secondary">
+              Disconnect
+            </button>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div id="router2" class="col-md-3">
+        <h1 class="page-header">Router 2</h1>
+        <ul>
+          <li>
+            {{ array4[3] }}
+            <button (click)="disconnect(3)" class="btn btn-secondary">
+              Disconnect
+            </button>
+          </li>
+          <br />
+          <li>
+            {{ array4[4] }}
+            <button (click)="disconnect(4)" class="btn btn-secondary">
+              Disconnect
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="router3" class="col-md-3">
+        <h1 class="page-header">Router 3</h1>
+        <ul>
+          <li>
+            {{ array4[5] }}
+            <button (click)="disconnect(5)" class="btn btn-secondary">
+              Disconnect
+            </button>
+          </li>
+          <br />
+          <li>
+            {{ array4[6] }}
+            <button (click)="disconnect(6)" class="btn btn-secondary">
+              Disconnect
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <div id="com1">
+      <button
+        type="button"
+        (click)="connect('com1')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com1
+      </button>
+    </div>
+    <div id="com2">
+      <button
+        type="button"
+        (click)="connect('com2')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com2
+      </button>
+    </div>
+    <div id="com3">
+      <button
+        type="button"
+        (click)="connect('com3')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com3
+      </button>
+    </div>
+    <div id="com4">
+      <button
+        type="button"
+        (click)="connect('com4')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com4
+      </button>
+    </div>
+    <div id="com5">
+      <button
+        type="button"
+        (click)="connect('com5')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com5
+      </button>
+    </div>
+    <div id="com6">
+      <button
+        type="button"
+        (click)="connect('com6')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com6
+      </button>
+    </div>
+    <div id="com7">
+      <button
+        type="button"
+        (click)="connect('com7')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com7
+      </button>
+    </div>
+    <div id="com8">
+      <button
+        type="button"
+        (click)="connect('com8')"
+        class="btn btn-secondary"
+        mat-raised-button
+        color="primary"
+      >
+        Connect com8
+      </button>
+
+      <!-- <button mat-raised-button color="primary">Primary</button> -->
+    </div>
+  </div>
+</body>
